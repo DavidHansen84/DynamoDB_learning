@@ -6,7 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "@cyclic.sh/dynamodb": "^0.0.33",
+    "@cyclic.sh/dynamodb": "^0.0.35",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "dotenv": "^16.3.1",
