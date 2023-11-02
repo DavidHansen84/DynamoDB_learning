@@ -11,7 +11,7 @@ router.get("/", async (req, res, next) => {
   if (content == null) {
     res.json({
       status: "fail",
-      message: "Content is empty"
+      message: "Content is empty, add some content first"
     });
   } else {
     let contentValue = content.props.value
